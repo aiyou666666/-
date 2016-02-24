@@ -1,0 +1,11 @@
+var shiData=["0","1","2","3","4"];
+ $('.aydataDemo1').click(function(){
+    $(this).KyjPicker({title:"Ñ¡ÔñÆ÷",initData:[shiData,shiData,shiData,shiData,shiData],format:"shi,ting,wei,chu,yangtai"},function(str){
+    $('.aydataDemo1').html(str);
+    },function(){});
+  });
+$('.aydataDemo1').click(function(){
+    $(this).KyjPicker({title:"Ñ¡ÔñÆ÷",format:"yy,MM"},function(str){
+    $('.aydataDemo1').html(str);
+    },function(){});
+  });
